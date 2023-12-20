@@ -1,0 +1,111 @@
+<!-- {{ define "main" }}
+{{ .Content }}
+{{- partial "posts.html" . -}}
+{{ end }} -->
+
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <title>{{ .Title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  {{ template "_internal/schema.html" . }}
+  <meta property="og:image" content="{{ .Params.Thumbnail }}" />
+  <meta property="og:image:width" content="{{ .Params.Width }}" />
+  <meta property="og:image:height" content="{{ .Params.height }}" />
+  <meta property="og:image:type" content="image/jpeg" />
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  <link rel="icon" href="/images/favicon32x32-01.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  {{ partial "nav.html" . }}
+
+  <div class="container-fluid konten">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <img
+          src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+          class="card-img-top" alt="...">
+        <div style="position:absolute; top:140px; left:20px;">
+          {{ range .Params.tags }}
+          <button class="btn btn-outline-success">{{ . }}</button>
+          {{ end }}
+        </div>
+        <h1 class="konten">{{ .Title }}</h1>
+        <div class="">
+          <img src="/images/navbar%20image%20300x150.png" class="rounded-circle" width="32"
+          height="32" style="margin-right: 10px;"><small>Admin &#183; {{ .Date.Format "02-01-2006" }}</small>
+        </div>
+        <article class="konten">
+          {{ .Content }}
+        </article>
+      </div>
+      <div class="col-md-4">
+
+        <div class="sidearticle">
+          
+          <div class="desktop">
+            {{ $related := .Site.RegularPages.Related . | first 5 }}
+            {{ with $related }}
+            {{ range . }}
+            <div class="card mb-3" style="max-height: 100px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                    class="img-fluid rounded-start" style="height: 100px;" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                    <p class="card-text"><small class="text-body-secondary">⌚ : <time>{{ .Date.Format "02-01-2006" }}</time></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+          
+          <!-- end desktop -->
+          <div class="mobile">
+
+            <div class="card">
+              <img
+                src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+          </div>
+          <!-- end mobile -->
+        </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+  {{ partial "footer.html" . }}
+
+</html>

@@ -1,0 +1,118 @@
+.navbar {
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+}
+
+.navbar:hover .navbar-nav:hover .nav-link:hover {
+  color: #4FD675;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none
+}
+
+a:hover {
+  color: #4FD675;
+}
+
+/* selected link */
+a:active {
+  color: #4FD675;
+}
+
+.judulbagian {
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.judulbagian:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid #4FD675;
+}
+
+.konten {
+  margin-top: 40px;
+}
+
+.devider {
+  width: 100%;
+  display: block;
+  height: 0.5px;
+  background-color: #000;
+  margin: 60px auto 0;
+}
+
+.footer {
+  display: flex;
+  float: right;
+}
+
+.footer>a {
+  margin: 10px;
+  padding: 10px;
+}
+
+.tags {
+  position: absolute;
+  display: flex;
+  float: left;
+}
+
+.tags>span {
+  margin: 10px;
+  padding: 10px;
+}
+
+.tagsarticle{
+  display: flex;
+}
+
+.tagsarticle>button {
+  margin: 10px;
+  padding: 10px;
+}
+
+.sidearticle {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  padding-left: 5px;
+}
+
+.mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .tagsarticle>button {
+    display: none;
+  }
+  
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .footer {
+    display: grid;
+  }
+
+  .btn-outline-dark {
+    border: none;
+    padding: 0;
+    outline: none;
+  }
+}

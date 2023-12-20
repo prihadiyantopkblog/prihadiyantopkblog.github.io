@@ -1,0 +1,179 @@
+<!-- {{ define "main" }}
+{{ .Content }}
+{{- partial "posts.html" . -}}
+{{ end }} -->
+
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="icon" href="/images/favicon32x32-01.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="/css/style.css?1" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  {{ partial "nav.html" . }}
+  
+  <div class="container konten">
+    <div class="container-fluid">
+
+      <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+        <div class="col">
+          <div class="p-3">
+            <h6 class="judulbagian">Pilihan Editor</h6>
+
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <h6 class="judulbagian">Postingan Tren</h6>
+
+            <div class="card mb-3" style="max-height: 100px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                    class="img-fluid rounded-start" style="height: 95px;" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-height: 100px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                    class="img-fluid rounded-start" style="height: 95px;" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-height: 100px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                    class="img-fluid rounded-start" style="height: 95px;" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <h6 class="judulbagian">Postingan Populer</h6>
+
+            <div class="card">
+              <img
+                src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="devider"></div>
+
+      <h6 class="judulbagian konten">Postingan Terbaru</h6>
+
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          {{ range .Paginator.Pages }}
+          {{ .Render "post" }}
+          {{ end }}
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </div>
+
+      <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+        <!-- start card postingan -->
+        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") 6 }}
+        {{ range $paginator.Pages }}
+        <div class="col">
+          <div class="p-3">
+            <div class="card">
+              <img
+                src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}'
+                class="card-img-top" alt="{{ .Title }}">
+              <div class="tags">
+                
+                {{ range .Params.tags }}
+                <span class="badge bg-secondary">{{ . }}</span>
+                {{ end }}
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                <p class="card-text">{{ .Description }}</p>
+                <a href="{{ .RelPermalink }}" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <!-- end card postingan -->
+        
+      </div>
+      <div>
+        {{ range .Paginator.Pages }}
+        {{ .Render "post" }}
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+      </div>
+
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+  {{ partial "footer.html" . }}
+
+</html>
