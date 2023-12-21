@@ -18,8 +18,8 @@ authorname: "Author"
 authorlink: "/about-us.html"
 authorphoto: "/images/navbar%20image%20300x150.png"
 
-image: /images/Manajemen%20keuangan%20pribadi.jpg
-thumbnail: /images/Manajemen%20keuangan%20pribadi.jpg
+image: https://melekkeuangan.com/images/Manajemen%20keuangan%20pribadi.jpg
+thumbnail: https://melekkeuangan.com/images/Manajemen%20keuangan%20pribadi.jpg
 width: 1024
 height: 576
 description: "Optimalkan keuangan pribadi Anda dengan 5 Strategi Cerdas yang Kami Bagikan! Pelajari cara membuat anggaran realistis, mengelola simpanan darurat, dan menginvestasikan uang Anda untuk pertumbuhan kekayaan jangka panjang. Temukan tips menghindari utang yang tidak perlu dan kenali pentingnya literasi keuangan melalui edukasi terus menerus. Dapatkan keamanan keuangan dan capai kesuksesan finansial dengan mengikuti panduan praktis ini. Pelajari lebih lanjut untuk mencapai stabilitas keuangan dan mengelola risiko secara efektif"
