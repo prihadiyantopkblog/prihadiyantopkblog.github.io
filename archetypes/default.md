@@ -11,11 +11,11 @@ categories:
     - Blog
 
 authorname: "Author"
-authorlink: "/aboutus"
+authorlink: "/tentang/about-us.html"
 
 authorname: "Author"
-authorlink: "/aboutus"
-authorphoto: "/images/author.png"
+authorlink: "/tentang/about-us.html"
+authorphoto: "/images/navbar%20image%20300x150.png"
 
 image: /images/koleksiprihadi.jpeg
 thumbnail: /images/koleksiprihadi.jpeg

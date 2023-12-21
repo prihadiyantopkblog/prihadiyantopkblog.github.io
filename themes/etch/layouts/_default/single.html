@@ -31,7 +31,7 @@
     <div class="row g-0">
       <div class="col-md-8">
         <img
-          src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+          src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}'
           class="card-img-top" alt="...">
         <div style="position:absolute; top:140px; left:20px;">
           {{ range .Params.tags }}
@@ -59,7 +59,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                    src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}'
                     class="img-fluid rounded-start" style="height: 100px;" alt="...">
                 </div>
                 <div class="col-md-8">
@@ -76,19 +76,27 @@
           
           <!-- end desktop -->
           <div class="mobile">
-
-            <div class="card">
+            {{ $related := .Site.RegularPages.Related . | first 5 }}
+            {{ with $related }}
+            {{ range . }}
+            <div class="card" style="margin-top:10px">
               <img
-                src="https://demo.gethugothemes.com/reader/site/images/blog/blog-1_hu8d383813f990400acf6a9767ad11035b_154602_380x180_fill_q100_h2_box_smart1.webp"
+                src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}'
                 class="card-img-top" alt="...">
+              <div class="tags">
+
+                {{ range .Params.tags }}
+                <span class="badge bg-secondary">{{ . }}</span>
+                {{ end }}
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                <p class="card-text">{{ .Description }}</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-
+            {{ end }}
+            {{ end }}
           </div>
           <!-- end mobile -->
         </div>
