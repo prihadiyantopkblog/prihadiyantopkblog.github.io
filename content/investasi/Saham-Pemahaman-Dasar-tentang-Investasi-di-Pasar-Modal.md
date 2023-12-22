@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2023-12-22T01:04:43Z
 title: "Saham: Pemahaman Dasar Tentang Investasi Di Pasar Modal"
 slug: Saham-Pemahaman-Dasar-tentang-Investasi-di-Pasar-Modal
