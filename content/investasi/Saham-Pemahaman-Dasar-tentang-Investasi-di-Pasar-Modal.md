@@ -5,10 +5,11 @@ title: "Saham: Pemahaman Dasar Tentang Investasi Di Pasar Modal"
 slug: Saham-Pemahaman-Dasar-tentang-Investasi-di-Pasar-Modal
 
 tags:
-    - Keuangan
+    - Investasi
+    - Saham
 
 categories:
-    - Blog
+    - Investasi
 
 authorname: "Author"
 authorlink: "/tentang/about-us.html"
