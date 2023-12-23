@@ -1,11 +1,12 @@
 ---
-draft: true
+draft: false
 date: 2023-12-22T01:34:52Z
 title: "Investasi Yang Menguntungkan: Panduan Untuk Pemula"
 slug: Investasi-yang-Menguntungkan-Panduan-untuk-Pemula
 
 tags:
     - Keuangan
+    - Investasi
 
 categories:
     - Blog
@@ -17,11 +18,11 @@ authorname: "Author"
 authorlink: "/tentang/about-us.html"
 authorphoto: "/images/navbar%20image%20300x150.png"
 
-image: /images/koleksiprihadi.jpeg
-thumbnail: /images/koleksiprihadi.jpeg
+image: https://melekkeuangan.com/images/Investasi%20Untuk%20Masa%20Depan.jpg
+thumbnail: https://melekkeuangan.com/images/Investasi%20Untuk%20Masa%20Depan.jpg
 width: 1024
 height: 576
-description: "test"
+description: "Temukan investasi menguntungkan dengan panduan lengkap untuk pemula. Pelajari saham, reksa dana, obligasi, dan properti. Diversifikasi portofolio dengan strategi cerdas. Konsultasikan rencana Anda dengan penasihat keuangan. Artikel ini membimbing Anda menuju keberhasilan finansial."
 
 ---
 
