@@ -9,7 +9,7 @@ tags:
     - Investasi
 
 categories:
-    - Blog
+    - Investasi
 
 authorname: "Author"
 authorlink: "/tentang/about-us.html"
