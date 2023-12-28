@@ -6,17 +6,27 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 01:43:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2023 06:25:28 +0000</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Anggaran Pribadi</title>
-      <link>/tags/anggaran-pribadi/</link>
-      <pubDate>Thu, 28 Dec 2023 01:43:18 +0000</pubDate>
+      <title>Anggaran bulanan</title>
+      <link>/tags/anggaran-bulanan/</link>
+      <pubDate>Thu, 28 Dec 2023 06:25:28 +0000</pubDate>
       
-      <guid>/tags/anggaran-pribadi/</guid>
+      <guid>/tags/anggaran-bulanan/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Dana Darurat</title>
+      <link>/tags/dana-darurat/</link>
+      <pubDate>Thu, 28 Dec 2023 06:25:28 +0000</pubDate>
+      
+      <guid>/tags/dana-darurat/</guid>
       <description></description>
       <image></image>
     </item>
@@ -24,9 +34,19 @@
     <item>
       <title>Keuangan</title>
       <link>/tags/keuangan/</link>
-      <pubDate>Thu, 28 Dec 2023 01:43:18 +0000</pubDate>
+      <pubDate>Thu, 28 Dec 2023 06:25:28 +0000</pubDate>
       
       <guid>/tags/keuangan/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Anggaran Pribadi</title>
+      <link>/tags/anggaran-pribadi/</link>
+      <pubDate>Thu, 28 Dec 2023 01:43:18 +0000</pubDate>
+      
+      <guid>/tags/anggaran-pribadi/</guid>
       <description></description>
       <image></image>
     </item>
@@ -97,16 +117,6 @@
       <pubDate>Mon, 25 Dec 2023 07:41:31 +0000</pubDate>
       
       <guid>/tags/mengelola-utang/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>Dana Darurat</title>
-      <link>/tags/dana-darurat/</link>
-      <pubDate>Sun, 24 Dec 2023 07:58:42 +0000</pubDate>
-      
-      <guid>/tags/dana-darurat/</guid>
       <description></description>
       <image></image>
     </item>
