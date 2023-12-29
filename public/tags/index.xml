@@ -6,10 +6,40 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 06:25:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 06:47:28 +0000</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asuransi</title>
+      <link>/tags/asuransi/</link>
+      <pubDate>Fri, 29 Dec 2023 06:47:28 +0000</pubDate>
+      
+      <guid>/tags/asuransi/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Keuangan</title>
+      <link>/tags/keuangan/</link>
+      <pubDate>Fri, 29 Dec 2023 06:47:28 +0000</pubDate>
+      
+      <guid>/tags/keuangan/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Perlindungan finansial</title>
+      <link>/tags/perlindungan-finansial/</link>
+      <pubDate>Fri, 29 Dec 2023 06:47:28 +0000</pubDate>
+      
+      <guid>/tags/perlindungan-finansial/</guid>
+      <description></description>
+      <image></image>
+    </item>
     
     <item>
       <title>Anggaran bulanan</title>
@@ -27,16 +57,6 @@
       <pubDate>Thu, 28 Dec 2023 06:25:28 +0000</pubDate>
       
       <guid>/tags/dana-darurat/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>Keuangan</title>
-      <link>/tags/keuangan/</link>
-      <pubDate>Thu, 28 Dec 2023 06:25:28 +0000</pubDate>
-      
-      <guid>/tags/keuangan/</guid>
       <description></description>
       <image></image>
     </item>
