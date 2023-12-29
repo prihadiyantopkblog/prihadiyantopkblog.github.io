@@ -28,6 +28,8 @@ description: "Optimalkan keuangan pribadi Anda dengan 5 Strategi Cerdas yang Kam
 
 Mengelola keuangan pribadi merupakan aspek penting dalam menciptakan kehidupan yang stabil dan sejahtera. Dengan merencanakan dan menerapkan strategi cerdas, Anda dapat memastikan bahwa keuangan Anda terkelola dengan baik dan memberikan keamanan finansial jangka panjang. Dalam artikel ini, kita akan membahas lima strategi cerdas untuk mengelola keuangan pribadi Anda.
 
+{{< toc >}}
+
 ![1. Buat Anggaran yang Realistis](/images/Buat%20Anggaran%20yang%20Realistis.jpg)
 
 ### 1. Buat Anggaran yang Realistis
@@ -51,6 +53,8 @@ Meskipun menabung penting, investasi adalah kunci untuk memastikan keuangan Anda
 ### 4. Hindari Utang yang Tidak Perlu
    
 Utang dapat menjadi beban finansial yang berat jika tidak dikelola dengan baik. Hindari utang yang tidak perlu dan pertimbangkan untuk melunasi utang dengan bunga tinggi terlebih dahulu. Selalu perhatikan tingkat bunga dan syarat-syarat utang sebelum mengambilnya. Pilih utang yang memberikan manfaat jangka panjang, seperti pendidikan atau pembelian properti, dan hindari utang konsumtif yang hanya akan meningkatkan beban keuangan Anda.
+
+{{< link >}}
 
 ![5. Edukasi Finansial Terus Menerus](/images/Edukasi%20Finansial.jpg)
 

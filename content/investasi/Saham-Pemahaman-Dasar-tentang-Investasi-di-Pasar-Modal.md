@@ -27,6 +27,8 @@ description: "Saham: Pandangan Dasar Investasi. Artikel ini menjelaskan konsep d
 ---
 Saham merupakan instrumen keuangan yang menjadi pusat perhatian dalam dunia investasi dan pasar modal. Bagi banyak orang, kata "saham" sering terdengar, tetapi pemahaman yang mendalam tentang apa itu saham dan bagaimana mereka berfungsi dapat membantu individu membuat keputusan investasi yang lebih baik. Artikel ini akan memberikan gambaran dasar tentang saham, menjelaskan konsep dasar, dan mengapa saham menjadi salah satu pilihan utama bagi para investor.
 
+{{< toc >}}
+
 ### Apa Itu Saham?
 
 Saham adalah sertifikat kepemilikan atau tanda bukti kepemilikan atas bagian dari suatu perusahaan. Seseorang yang memiliki saham dalam suatu perusahaan disebut sebagai pemegang saham atau pemilik saham. Pemilik saham memiliki klaim atas pendapatan perusahaan dan hak untuk berpartisipasi dalam keputusan perusahaan, terutama melalui hak suara dalam pertemuan pemegang saham.
@@ -34,6 +36,8 @@ Saham adalah sertifikat kepemilikan atau tanda bukti kepemilikan atas bagian dar
 ### Bagaimana Saham Berfungsi?
 
 Ketika seorang individu atau lembaga membeli saham suatu perusahaan, mereka sebenarnya menginvestasikan uangnya ke dalam perusahaan tersebut. Dalam pertukaran, mereka menerima saham yang mewakili sebagian kepemilikan mereka di perusahaan. Jumlah saham yang dimiliki oleh investor ditentukan oleh seberapa banyak uang yang mereka investasikan dan seberapa banyak saham yang dikeluarkan oleh perusahaan.
+
+{{< link >}}
 
 ### Jenis Saham
 

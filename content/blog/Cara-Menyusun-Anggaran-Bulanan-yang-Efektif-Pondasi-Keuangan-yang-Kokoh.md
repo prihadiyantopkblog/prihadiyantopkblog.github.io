@@ -29,6 +29,8 @@ description: "Temukan kunci sukses keuangan: Panduan menyusun anggaran bulanan y
 
 Menyusun anggaran bulanan adalah langkah kunci dalam manajemen keuangan yang sukses. Dalam artikel ini, kita akan membahas langkah-langkah praktis untuk menyusun anggaran bulanan yang efektif guna mencapai tujuan finansial Anda.
 
+{{< toc >}}
+
 ### 1. Identifikasi Pendapatan Bulanan
 Mulailah dengan mengidentifikasi sumber pendapatan bulanan Anda. Hitung jumlah total uang yang masuk, termasuk gaji, bonus, atau sumber pendapatan lainnya. Mengetahui pendapatan adalah langkah pertama untuk menyusun anggaran yang realistis.
 
@@ -43,6 +45,8 @@ Salah satu komponen penting dari anggaran yang efektif adalah menyisihkan dana u
 
 ### 5. Gunakan Metode Pembayaran Elektronik
 Menggunakan metode pembayaran elektronik dapat membantu Anda melacak pengeluaran secara lebih rinci dan efisien. Aplikasi keuangan dapat memberikan gambaran yang jelas tentang seberapa baik Anda mematuhi anggaran.
+
+{{< link >}}
 
 ### 6. Pantau dan Evaluasi Secara Berkala
 Selalu pantau dan evaluasi anggaran bulanan Anda secara berkala. Periksa apakah Anda mencapai tujuan keuangan dan apakah ada area di mana Anda dapat menghemat lebih banyak.

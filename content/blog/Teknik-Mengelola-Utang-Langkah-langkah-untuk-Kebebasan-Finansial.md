@@ -29,6 +29,8 @@ description: "Panduan praktis menuju kebebasan finansial! Pelajari cara mengelol
 
 Utang dapat menjadi beban finansial yang signifikan, tetapi dengan pendekatan yang tepat, Anda dapat mengelolanya dan membangun jalan menuju kebebasan finansial. Dalam artikel ini, kita akan membahas langkah-langkah praktis untuk mengelola utang dengan efektif.
 
+{{< toc >}}
+
 ### 1. Evaluasi dan Pahami Utang Anda
 Mulailah dengan membuat daftar lengkap utang Anda. Identifikasi jumlah, tingkat bunga, dan jatuh tempo setiap utang. Pahami jenis utang, apakah itu utang konsumtif atau produktif. Hal ini akan membantu Anda membuat strategi yang lebih terfokus.
 
@@ -43,6 +45,8 @@ Metode salju melibatkan melunasi utang dengan tingkat bunga tertinggi terlebih d
 
 ### 5. Pertimbangkan Konsolidasi Utang
 Jika memungkinkan, pertimbangkan untuk menggabungkan utang Anda menjadi satu pinjaman dengan tingkat bunga lebih rendah. Ini dapat membuat pembayaran lebih mudah dikelola dan mengurangi beban bunga.
+
+{{< link >}}
 
 ### 6. Hindari Menambah Utang Baru
 Selama proses melunasi utang, hindari menambah utang baru. Fokus pada pembayaran utang yang ada dan hindari memperburuk situasi keuangan Anda dengan menambah beban utang.

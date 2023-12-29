@@ -29,6 +29,8 @@ description: "Artikel penting! Asuransi dalam perencanaan keuangan keluarga memb
 
 Perencanaan keuangan keluarga adalah langkah penting untuk memastikan stabilitas finansial jangka panjang. Salah satu elemen krusial dalam perencanaan ini adalah asuransi. Dalam artikel ini, kita akan menjelaskan mengapa asuransi memainkan peran sentral dalam melindungi dan membangun keamanan finansial keluarga.
 
+{{< toc >}}
+
 ### 1. Perlindungan terhadap Risiko Tak Terduga
 Asuransi berfungsi sebagai pagar pelindung terhadap risiko tak terduga, seperti sakit parah, kecelakaan, atau bahkan kematian. Polis asuransi dapat memberikan manfaat finansial yang signifikan untuk membantu keluarga mengatasi dampak finansial dari kejadian yang tidak diinginkan.
 
@@ -40,6 +42,8 @@ Asuransi properti melindungi aset dan harta benda keluarga dari risiko seperti k
 
 ### 4. Pensiun dan Investasi Jangka Panjang
 Asuransi jiwa dan investasi jangka panjang dapat membantu dalam merencanakan masa pensiun keluarga. Dengan memiliki polis asuransi jiwa, keluarga diberikan perlindungan finansial setelah kehilangan pendapatan yang signifikan akibat kematian salah satu anggota keluarga.
+
+{{< link >}}
 
 ### 5. Pengganti Pendapatan
 Asuransi pengganti pendapatan (income protection) adalah instrumen penting yang memberikan sumber pendapatan jika seseorang mengalami cacat atau kehilangan kemampuan untuk bekerja. Ini membantu menjaga kestabilan finansial keluarga tanpa mengorbankan standar hidup.

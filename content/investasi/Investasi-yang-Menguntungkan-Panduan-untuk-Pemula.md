@@ -28,6 +28,8 @@ description: "Temukan investasi menguntungkan dengan panduan lengkap untuk pemul
 
 Investasi merupakan salah satu cara yang efektif untuk meningkatkan kekayaan dan meraih tujuan keuangan jangka panjang. Bagi pemula, memahami dunia investasi bisa terasa kompleks, tetapi dengan panduan yang tepat, Anda dapat memulai perjalanan investasi Anda dengan percaya diri. Artikel ini akan membahas investasi yang menguntungkan, memberikan panduan khusus untuk pemula agar bisa lebih memahami apa itu investasi.
 
+{{< toc >}}
+
 ### Pentingnya Investasi untuk Pemula
 
 Bagi banyak orang, investasi seringkali dianggap sebagai jalan menuju kekayaan finansial. Investasi tidak hanya tentang menyimpan uang di bank, tetapi juga mengalokasikan dana ke instrumen keuangan dengan potensi pertumbuhan nilai. Bagi pemula, investasi dapat membantu mencapai tujuan keuangan, seperti pendidikan anak, pembelian rumah, atau persiapan pensiun.

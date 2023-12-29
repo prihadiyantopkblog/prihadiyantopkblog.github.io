@@ -30,6 +30,8 @@ description: "Panduan menyusun rencana keuangan jangka panjang. Mulai dari ident
 
 Membangun keuangan yang stabil memerlukan perencanaan yang matang. Artikel ini akan membahas langkah-langkah kunci untuk menyusun rencana keuangan jangka panjang, memberikan pandangan tentang bagaimana mengatur masa depan Anda.
 
+{{< toc >}}
+
 ### 1. Identifikasi Tujuan Finansial
 Mulailah dengan menetapkan tujuan keuangan jangka panjang. Apakah itu pendidikan anak, kepemilikan rumah, atau pensiun, menetapkan tujuan akan membimbing keputusan keuangan Anda.
 
@@ -38,6 +40,8 @@ Periksa keuangan Anda saat ini. Hitung aset dan liabilitas, dan tentukan tingkat
 
 ### 3. Buat Anggaran dan Kendalikan Pengeluaran
 Susun anggaran yang realistis dan sesuaikan pengeluaran dengan pendapatan. Hindari pengeluaran impulsif dan alokasikan sebagian untuk investasi jangka panjang.
+
+{{< link >}}
 
 ### 4. Pembentukan Dana Darurat
 Bangun dana darurat setidaknya setara dengan 3-6 bulan pengeluaran bulanan. Dana darurat memberikan perlindungan finansial dalam menghadapi keadaan darurat atau ketidakpastian.

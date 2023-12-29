@@ -30,6 +30,8 @@ description: "Jelajahi jenis investasi dan risikonya. Dari saham hingga cryptocu
 
 Investasi adalah langkah penting dalam merencanakan keuangan. Memahami jenis investasi dan risikonya membantu para investor membuat keputusan yang cerdas dan seimbang. Dalam artikel ini, kita akan menjelajahi beberapa jenis investasi populer dan risiko yang terkait.
 
+{{< toc >}}
+
 ### 1. Saham
 Investasi saham melibatkan kepemilikan sebagian dari suatu perusahaan. Potensi keuntungan tinggi, tetapi juga rentan terhadap fluktuasi pasar.
 
@@ -44,6 +46,8 @@ Obligasi adalah surat utang yang dikeluarkan oleh perusahaan atau pemerintah. Me
 Reksa dana menggabungkan dana dari berbagai investor untuk diinvestasikan dalam portofolio saham, obligasi, atau instrumen keuangan lainnya. 
 
 **Risiko**: Kinerja reksa dana tergantung pada portofolio underlying. Ada risiko pasar, likuiditas, dan manajerial.
+
+{{< link >}}
 
 ### 4. Properti
 Investasi properti melibatkan pembelian dan kepemilikan properti fisik. Meskipun dapat memberikan pendapatan sewa dan apresiasi nilai properti.
