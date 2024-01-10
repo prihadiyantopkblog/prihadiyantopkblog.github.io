@@ -6,17 +6,17 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Dec 2023 06:47:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 07:11:06 +0000</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Asuransi</title>
-      <link>/tags/asuransi/</link>
-      <pubDate>Fri, 29 Dec 2023 06:47:28 +0000</pubDate>
+      <title>Investasi</title>
+      <link>/tags/investasi/</link>
+      <pubDate>Wed, 10 Jan 2024 07:11:06 +0000</pubDate>
       
-      <guid>/tags/asuransi/</guid>
+      <guid>/tags/investasi/</guid>
       <description></description>
       <image></image>
     </item>
@@ -24,9 +24,19 @@
     <item>
       <title>Keuangan</title>
       <link>/tags/keuangan/</link>
-      <pubDate>Fri, 29 Dec 2023 06:47:28 +0000</pubDate>
+      <pubDate>Wed, 10 Jan 2024 07:11:06 +0000</pubDate>
       
       <guid>/tags/keuangan/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Asuransi</title>
+      <link>/tags/asuransi/</link>
+      <pubDate>Fri, 29 Dec 2023 06:47:28 +0000</pubDate>
+      
+      <guid>/tags/asuransi/</guid>
       <description></description>
       <image></image>
     </item>
@@ -87,16 +97,6 @@
       <pubDate>Thu, 28 Dec 2023 01:43:18 +0000</pubDate>
       
       <guid>/tags/tujuan-keuangan/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>Investasi</title>
-      <link>/tags/investasi/</link>
-      <pubDate>Tue, 26 Dec 2023 14:35:27 +0000</pubDate>
-      
-      <guid>/tags/investasi/</guid>
       <description></description>
       <image></image>
     </item>
